@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# PyTorch / ML artifacts
+*.pt
+*.pth
+*.ckpt
+
+# Training outputs
+outputs/
+runs/
+checkpoints/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# keep CSV splits tracked:
+!data/splits/
+!data/splits/*.csv

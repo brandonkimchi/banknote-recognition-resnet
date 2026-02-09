@@ -27,3 +27,5 @@ Thumbs.db
 # keep CSV splits tracked:
 !data/splits/
 !data/splits/*.csv
+
+.vscode/
